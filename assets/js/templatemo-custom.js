@@ -16,19 +16,28 @@
   });
 
 
-	$('.loop').owlCarousel({
-      center: true,
-      items:2,
-      loop:true,
-      nav: true,
-      margin:30,
-      responsive:{
-          
-          992:{
-              items:4
-          }
-      }
-  });
+	$('.owl-our-team').owlCarousel({
+		items:3,
+		loop:true,
+		dots: true,
+		nav: false,
+		autoplay: true,
+		margin:0,
+		  responsive:{
+			  0:{
+				  items:1
+			  },
+			  600:{
+				  items:2
+			  },
+			  1000:{
+				  items:3
+			  },
+			  1600:{
+				  items:3
+			  }
+		  }
+	})
 	
 
 	// Menu Dropdown Toggle
