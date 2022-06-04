@@ -108,7 +108,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   background-color: #fff;
   -ms-text-size-adjust: 100%;
@@ -140,6 +140,7 @@ img {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 global styles
@@ -148,7 +149,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ::selection {
@@ -195,18 +196,37 @@ body {
 }
 
 .section-heading h2 {
-  font-size: 30px;
-  text-transform: capitalize;
+  font-size: 26px;
+  text-transform: uppercase;
   color: #2a2a2a;
-  font-weight: 800;
+  font-weight: 700;
   position: relative;
   z-index: 2;
   line-height: 45px;
 }
 
+#sobrenos {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#fundo_sobre_nos {
+ position: absolute;
+ top: 30px;
+ left: 0px;
+}
+
+#sobrenos h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-left: 90px;
+  color: #fff;
+  font-weight: 700;
+}
+
 .section-heading h2 em {
   font-style: normal;
-  color: #509d56;
+  color: #ef6b18;
 }
 
 .section-heading h2 span {
@@ -215,42 +235,44 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #abd977;
+  background-color: #ef6b18;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 90px 25px;
   letter-spacing: 0.25px;
-  border-bottom: 2px solid #fff!important;
+  border: 2px solid #fff!important;
   transition: all .3s;
 }
 
 .main-blue-button a:hover {
   background-color: #fff!important;
-  color: #abd977!important;
-  border-bottom: 2px solid #abd977!important;
+  color: #ef6b18!important;
+  border: 2px solid #ef6b18 !important;
 }
 
 .main-green-button a {
   display: inline-block;
-  background-color: #509d56;
-  font-size: 15px;
+  background-color: #ef6b18;
+  font-size: 35px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 25px 10px;
   letter-spacing: 0.25px;
-  border-bottom: 2px solid #abd977!important;
+  border: 4px solid #fff!important;
   transition: all .3s;
+  box-shadow: 10px 7px #ef6b18;
 }
 
 .main-green-button a:hover {
-  background-color: #abd977!important;
-  color: #fff!important;
-  border-bottom: 2px solid #509d56!important;
+  background-color: #fff!important;
+  color: #ef6b18!important;
+  border: 2px solid #ef6b18!important;
+  box-shadow: 10px 7px #ef6b18;
+  transition: all .3s;
 }
 
 
@@ -336,8 +358,8 @@ header
 }
 
 .header-area .main-nav .logo h4 img {
-  max-width: 30px;
-  margin-top: -20px;
+  max-width: 223px;
+  margin-top: -61px;
   margin-left: 5px;
 }
 
@@ -600,7 +622,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 100px;
 }
 
 .header-area .nav {
@@ -855,14 +877,13 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 126px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/banner-dec-left.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -874,14 +895,15 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-dec-right.png);
+  background-image: url(../images/Logo/PNG/Logo_Quero_Minha_Liminar-34.png);
   background-repeat: no-repeat;
   position: absolute;
-  right: 0;
-  top: 100px;
-  width: 1159px;
-  height: 797px;
+  right: -226px;
+  top: -48px;
+  width: 1108px;
+  height: 1246px;
   z-index: -1;
+  background-size: contain;
 }
 
 .main-banner .left-content {
@@ -905,22 +927,20 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
-  border-top: 1px solid #eee;
-  margin-top: 30px;
-  padding-top: 20px;
-  margin-bottom: 45px;
-  font-size: 60px;
-  font-weight: 800;
-  color: #2a2a2a;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #509d56;
   line-height: 72px;
-  background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+.main-banner .left-content #pag-principal2 {
+  margin-bottom: 30px;
 }
 
+.main-banner .left-content #pag-principal2 span{
+  color: #ef6b18;
+}
 .main-banner .right-image {
   text-align: right;
   position: relative;
@@ -930,6 +950,7 @@ Banner Style
 .main-banner .right-image img {
   max-width: 593px;
 }
+
 
 
 
@@ -968,6 +989,11 @@ Features Style
   background: linear-gradient(105deg, #d77a40 0%, #f560048a 100%);
 }
 
+.second-feature:hover{
+  background: #509d56;
+  background: linear-gradient(105deg, #55b55d 0%, #0cd21ca7 100%);
+}
+
 .features-item:hover h4 {
   color: #fff;
 }
@@ -991,32 +1017,32 @@ Features Style
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 110px;
-  height: 69px;
-  color: #fff;
+  height: 100px;
+  color: rgb(0, 0, 0);
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
-  line-height: 69px;
+  line-height: 107px;
   margin-top: -65px;
   margin-bottom: 30px;
 }
 
 .features-item .first-number h6 {
-  background-image: url(../images/features-number-01.png);
+  background-image: url(../images/numeros_docs_verde.png)
 }
 
 .features-item .second-number h6 {
-  background-image: url(../images/features-number-02.png);
+  background-image: url(../images/numeros_docs_laranja.png);
 }
 
 .features-item .third-number h6 {
-  background-image: url(../images/features-number-03.png);
+  background-image: url(../images/numeros_docs_verde.png);
 }
 
 .features-item .fourth-number h6 {
-  background-image: url(../images/features-number-04.png);
+  background-image: url(../images/numeros_docs_laranja.png);
 }
 
 .first-feature .icon {
@@ -1290,7 +1316,7 @@ About Us Style
 */
 
 #about {
-  padding-top: 130px;
+  padding-top: 90px;
 }
 
 .about-us .section-heading {
@@ -1319,6 +1345,48 @@ About Us Style
   margin: 40px 0px;
 }
 
+.corrente{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.corrente img{
+  position: relative;
+  width: 60vh;
+}
+
+.corrente h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  display: flex;
+  color:#509d56;
+  padding-left: 20vh;
+  margin-bottom: -9vh;
+  font-weight: 800;
+}
+
+.about{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.textoabout{
+  padding-top: 5vh;
+  padding-right: 8vh;
+}
+
+.textoposabout{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  font-weight: 400;
+}
+
+.textoposabout p {
+  font-size: 19px;
+  margin-bottom: 1px;
+}
 /* 
 ---------------------------------------------
 Services Style
@@ -1497,7 +1565,7 @@ contact
 .contact-us {
   margin-top: 90px;
   padding: 120px 0px;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/Elementos/fundo_form.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1510,7 +1578,7 @@ contact
 
 .contact-us .contact-info {
   padding: 40px 10px;
-  border: 2px solid #eee;
+  border: 2px solid #ef6b18;
 }
 
 .contact-us .contact-info ul li {
@@ -1521,7 +1589,7 @@ contact
 
 .contact-us .contact-info ul li a {
   font-size: 15px;
-  color: #afafaf;
+  color: #fff;
   transition: all .5s;
 }
 
@@ -1543,7 +1611,8 @@ contact
 
 form#contact {
   position: relative;
-  background-color: #fff;
+  background-color: #509d56;
+  border: 3px solid #ef6b18;
   padding: 60px 80px;
   border-radius: 50px;
   text-align: center;
@@ -1553,8 +1622,8 @@ form#contact input {
   width: 100%;
   height: 46px;
   border-radius: 5px;
-  background-color: transparent;
-  border: 2px solid #efefef;
+  background-color: #efefef;
+  border: 2px solid #ef6b18;
   outline: none;
   font-size: 15px;
   font-weight: 300;
@@ -1591,7 +1660,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #509d56;
+  background-color: #ef6b18;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1600,16 +1669,16 @@ form#contact button {
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border-bottom: 2px solid #abd977!important;
+  border: 2px solid #fff!important;
   transition: all .3s;
   outline: none;
   border: none;
 }
 
 form#contact button:hover {
-  background-color: #abd977!important;
-  color: #fff!important;
-  border-bottom: 2px solid #509d56!important;
+  background-color: #fff!important;
+  color: #509d56!important;
+  border: 2px solid #ef6b18!important;
 }
 
 /* 
@@ -1741,4 +1810,16 @@ responsive
   form#contact {
     padding: 30px;
   }
+}
+
+#arrow{
+  width: 8vh;
+}
+
+#pag-principal h1{
+  font-family: 'Montserrat', sans-serif;
+  color:#509d56;
+  font-size: 92px;
+  display: flex;
+  align-items: center;
 }
