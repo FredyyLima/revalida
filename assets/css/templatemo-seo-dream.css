@@ -676,7 +676,7 @@ header
     box-shadow: none;
     text-align: center;
   }
-  .header-area .container {
+  .header-area  {
     padding: 0px;
   }
   .header-area .logo {
@@ -1403,7 +1403,7 @@ Services Style
   margin-right: 75px;
 }
 
-.our-services .container-fluid {
+.our-services -fluid {
   padding: 0px 80px;
 }
 
@@ -1464,7 +1464,7 @@ Portfolio
   overflow: hidden;
 }
 
-.our-portfolio .container-fluid {
+.our-portfolio -fluid {
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -1822,4 +1822,115 @@ responsive
   font-size: 92px;
   display: flex;
   align-items: center;
+}
+
+#pag-principal h2{
+  padding-left: 77px;
+  font-size: 44px;
+  margin-bottom: -12px;
+  margin-top: -25px;
+}
+.prova{
+  display: flex;
+  align-items:center;
+}
+
+.prova p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #509d56;
+}
+
+#prova{
+  margin-top: 40px;
+}
+
+.prova img{
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.mySwiper {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  overflow: hidden;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  margin-top: 70px !important;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px !important;
+  height: 500px !important;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+  filter:blur(4px);
+  background: #d1ebff;
+  border-radius: 10px;
+}
+
+.swiper-slide-active{
+  filter:blur(0px);
+  border-radius: 10px;
+}
+.swiper-slide img {
+  display: block;
+  border-radius: 10px;
+}
+.swiper-3d .swiper-slide-shadow-left, 
+.swiper-3d .swiper-slide-shadow-right{
+  background-image: none !important;
+}
+
+.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
+  perspective: 814px !important;
+}
+
+/*--------------------------------------------------------------
+# RESPONSIVIDADE
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1024px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 333px) {
+
+}
+@media only screen and (min-width: 334px) and (max-width: 625px) {
+
+}
+
+@media only screen and (min-width: 626px) and (max-width:1100px){ 
+
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1250px){ 
+
+}
+
+@media only screen and (min-width: 1251px){ 
+
 }
