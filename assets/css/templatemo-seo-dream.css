@@ -2402,7 +2402,7 @@ RESPONSIVIDADE PARA OA SEGUINTES DISPOSITIVOS: NOTE 20/ NOTE 20 ULTRA/ NOTE 9/ S
 #logoheader{
   max-width: max-content;
   max-height: max-content;
-  width: 124%;
+  width: 100%;
   height: 13.5rem;
   margin-left: -32%;
   margin-top: -26%;
@@ -3153,10 +3153,14 @@ margin-top: -17.4% !important;
 #logoheader{
   max-width: max-content;
   max-height: max-content;
-  width: 117%;
+  width: 104%;
   height: 11.5rem;
-  margin-left: -43%;
-  margin-top: -24%;
+  margin-left: -41%;
+  margin-top: -21%;
+}
+
+.main-blue-button{
+  display: none;
 }
 
 .header-area.header-sticky .nav {
@@ -3177,7 +3181,7 @@ margin-top: -17.4% !important;
 .header-area .main-nav .nav {
   float: right;
   margin-top: -17.4%;
-  margin-right: 0px;
+  margin-right: -14%;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
