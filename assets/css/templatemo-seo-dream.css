@@ -2409,10 +2409,10 @@ RESPONSIVIDADE PARA OA SEGUINTES DISPOSITIVOS: NOTE 20/ NOTE 20 ULTRA/ NOTE 9/ S
 }
 
 .logo{
-  max-width: max-content;
-  max-height: max-content;
-  width: 100%;
-  height: 13.5rem;
+  max-width: max-content !important;
+  max-height: max-content !important;
+  width: 100% !important;
+  height: 13.5rem !important;
 }
 
 .header-area.header-sticky .nav {
@@ -3163,7 +3163,7 @@ margin-top: -17.4% !important;
 }
 
 /* RESPONSIVIDADE PARA TELAS A PARTIR DE TABLET */
-@media only screen and (min-width: 626px) and (max-width:1100px) { 
+@media only screen and (min-width: 626px) and (max-width:836px) { 
   *{
     font-family: 'Montserrat', sans-serif;
   }
@@ -3208,7 +3208,7 @@ margin-top: -17.4% !important;
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: -17.4%;
+  margin-top: -22.4%;
   margin-right: -14%;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -3231,7 +3231,7 @@ margin-top: -17.4% !important;
 }
 
 .background-header .main-nav .nav {
-margin-top: -17.4% !important;
+margin-top: -22.4% !important;
 }
 /* -------------------------------------------------------------------  
             RESPONSIVIDADE DO INICIO
@@ -3241,40 +3241,41 @@ margin-top: -17.4% !important;
 }
 
 #pag-principal h1{
-  font-size: 57px;
+  font-size: 100px;
 }
 
 #pag-principal h2{
-  padding-left: 22px;
-  font-size: 26px;
+  padding-left: 0px;
+  font-size: 53px;
   margin-bottom: -19px;
   margin-top: -21px;
-  line-height: 60px;
+  line-height: 58px;
 }
 
 #pag-principal2 h3{
-  font-size: calc(0.9rem + 1.5vw);
+  font-size: calc(1.4rem + 1.5vw);
 }
 
 .main-green-button a {
-  font-size: 24px;
+  font-size: 45px;
   padding: 10px 21px;
-  letter-spacing: 0.3px;
+  letter-spacing: 3.3px;
   margin-left: -17px;
 }
 
 #prova{
-  margin-top: 16%;
+  margin-top: 13%;
 }
 
 .prova img{
-  width: 50px;
-  height: 50px;
+  width: 15%;
+  height: 30%;
 }
 
 .prova p{
-  font-size: 23px;
-  margin-left: 6%;
+  font-size: 47px;
+  margin-left: 1%;
+  line-height: 60px;
 }
 
 #medicoInicio{
@@ -3283,7 +3284,11 @@ margin-top: -17.4% !important;
 
 #top{
   padding-bottom: 2%;
-  padding-top: 45%;
+  padding-top: 19%;
+}
+
+#arrow{
+  width: 6vw;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
@@ -3324,7 +3329,7 @@ margin-top: -17.4% !important;
   margin-right: 61% !important;
 }
 .mySwiper{
-  padding-top: 40% !important;
+  padding-top: 18% !important;
 }
 
 .swiper-slide {
@@ -3353,13 +3358,18 @@ margin-top: -17.4% !important;
   margin-bottom: -18px;
 }
 #sobrenos h2 {
-  font-size: 22px;
-  margin-top: -5%;
-  margin-left: -21%;
+  font-size: 46px;
+  margin-top: 2%;
+  margin-left: -1%;
+}
+
+.corrente{
+  margin-left: -13px;
 }
 
 .corrente img {
-  width: 100%;
+  width: 92vw;
+  margin-top: 6%;
 }
 
 .corrente h2 {
@@ -3367,10 +3377,10 @@ margin-top: -17.4% !important;
   position: absolute;
   display: flex;
   color: #509d56;
-  padding-left: 26%;
-  margin-bottom: -10vh;
+  padding-left: 31%;
+  margin-bottom: -14vh;
   font-weight: 800;
-  font-size: 21px;
+  font-size: 42px;
 }
 
 .textoabout {
@@ -3379,12 +3389,12 @@ margin-top: -17.4% !important;
 }
 
 .about-us p {
-  margin: 18px 0px;
+  margin: 45px 0px;
 }
 
 .textoposabout p {
-  font-size: 14px;
-  margin-bottom: 1px;
+  font-size: 25px;
+  margin-bottom: 12px;
 }
 
 #blocoSobreNos{
@@ -3419,14 +3429,536 @@ margin-top: -17.4% !important;
 }
 }
 
-@media only screen and (min-width: 1101px) and (max-width: 1250px){ 
+@media only screen and (min-width: 837px) and (max-width: 890px){ 
   *{
     font-family: 'Montserrat', sans-serif;
   }
+
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO HEADER E LOGO HEADER
+-------------------------------------------------------------------  */ 
+#logoheader{
+  max-width: max-content;
+  max-height: max-content;
+  width: 104%;
+  height: 11.5rem;
+  margin-left: -41%;
+  margin-top: -21%;
 }
 
-@media only screen and (min-width: 1251px){ 
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 104%;
+  height: 11.5rem;
+}
+
+.main-blue-button{
+  display: none;
+}
+
+.header-area.header-sticky .nav {
+  margin-top: 100px;
+}
+
+.header-area .main-nav .nav {
+  float: none;
+  width: 100%;
+  display: none;
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  margin-left: 0px;
+}
+
+.header-area .main-nav .nav {
+  float: right;
+  margin-top: -22.4%;
+  margin-right: -14%;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 999;
+}
+
+.header-area .nav {
+  margin-top: 30px;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.background-header .main-nav .nav {
+margin-top: -22.4% !important;
+}
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO INICIO
+-------------------------------------------------------------------  */  
+#pag-principal{
+  padding-right: 0px;
+}
+
+#pag-principal h1{
+  font-size: 100px;
+}
+
+#pag-principal h2{
+  padding-left: 0px;
+  font-size: 53px;
+  margin-bottom: -19px;
+  margin-top: -21px;
+  line-height: 58px;
+}
+
+#pag-principal2 h3{
+  font-size: calc(1.4rem + 1.5vw);
+}
+
+.main-green-button a {
+  font-size: 45px;
+  padding: 10px 21px;
+  letter-spacing: 3.3px;
+  margin-left: -17px;
+}
+
+#prova{
+  margin-top: 13%;
+}
+
+.prova img{
+  width: 15%;
+  height: 30%;
+}
+
+.prova p{
+  font-size: 47px;
+  margin-left: 1%;
+  line-height: 60px;
+}
+
+#medicoInicio{
+  display: none;
+}
+
+#top{
+  padding-bottom: 2%;
+  padding-top: 19%;
+}
+
+#arrow{
+  width: 6vw;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  width: 100%;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO COMO FUNCIONA?
+-------------------------------------------------------------------  */ 
+
+#features{
+  padding-top: 139px;
+}
+
+.features-item .icon {
+  margin: -20px auto;
+}
+
+.swiper{
+  width: 100% !important;
+  height: 90% !important;
+}
+
+#imgDepoimento{
+  width: 100% !important;
+  height: 100% !important;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 40% !important;;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  margin-right: 61% !important;
+}
+.mySwiper{
+  padding-top: 18% !important;
+}
+
+.swiper-slide {
+  filter: blur(4px);
+  background: #d1ebff;
+  flex-shrink: 0;
+  width: 220% !important;
+  height: 99% !important;
+  position: relative;
+  transition-property: transform;
+}
+
+.swiper-slide-active{
+  filter:blur(0px);
+  border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO SOBRE NÓS
+-------------------------------------------------------------------  */
+#medicosSobreNos{
+  display: none;
+}
+
+#sobrenos{
+  margin-bottom: -18px;
+}
+#sobrenos h2 {
+  font-size: 46px;
+  margin-top: 2%;
+  margin-left: -1%;
+}
+
+.corrente{
+  margin-left: -13px;
+}
+
+.corrente img {
+  width: 92vw;
+  margin-top: 6%;
+  margin-left: -17px;
+}
+
+.corrente h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  display: flex;
+  color: #509d56;
+  padding-left: 36%;
+  margin-bottom: -14vh;
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.textoabout {
+  padding-top: 7vh;
+  padding-right: 0vh;
+}
+
+.about-us p {
+  margin: 45px 0px;
+}
+
+.textoposabout p {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+#blocoSobreNos{
+  margin-top: -29px;
+}
+
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO CONTATO
+-------------------------------------------------------------------  */
+
+.section-heading h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+  line-height: 30px;
+}
+
+.contact-us .section-heading {
+  text-align: center;
+  margin-left: -6%;
+  margin-right: -6%;
+}
+
+.contact-us .contact-info ul li {
+  text-align: center;
+  display: block;
+  margin-left: -8%;
+  margin-right: 6%;
+}
+}
+
+@media only screen and (min-width: 891px) and (max-width: 990px){ 
   *{
     font-family: 'Montserrat', sans-serif;
   }
+
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO HEADER E LOGO HEADER
+-------------------------------------------------------------------  */ 
+#logoheader{
+  max-width: max-content;
+  max-height: max-content;
+  width: 104%;
+  height: 11.5rem;
+  margin-left: -41%;
+  margin-top: -21%;
+}
+
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 104%;
+  height: 11.5rem;
+}
+
+.main-blue-button{
+  display: none;
+}
+
+.header-area.header-sticky .nav {
+  margin-top: 100px;
+}
+
+.header-area .main-nav .nav {
+  float: none;
+  width: 100%;
+  display: none;
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  margin-left: 0px;
+}
+
+.header-area .main-nav .nav {
+  float: right;
+  margin-top: -22.4%;
+  margin-right: -14%;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 999;
+}
+
+.header-area .nav {
+  margin-top: 30px;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.background-header .main-nav .nav {
+margin-top: -22.4% !important;
+}
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO INICIO
+-------------------------------------------------------------------  */  
+#pag-principal{
+  padding-right: 0px;
+}
+
+#pag-principal h1{
+  font-size: 100px;
+}
+
+#pag-principal h2{
+  padding-left: 0px;
+  font-size: 53px;
+  margin-bottom: -19px;
+  margin-top: -21px;
+  line-height: 58px;
+}
+
+#pag-principal2 h3{
+  font-size: calc(1.4rem + 1.5vw);
+}
+
+.main-green-button a {
+  font-size: 45px;
+  padding: 10px 21px;
+  letter-spacing: 3.3px;
+  margin-left: -17px;
+}
+
+#prova{
+  margin-top: 13%;
+}
+
+.prova img{
+  width: 15%;
+  height: 30%;
+}
+
+.prova p{
+  font-size: 47px;
+  margin-left: 1%;
+  line-height: 60px;
+}
+
+#medicoInicio{
+  display: none;
+}
+
+#top{
+  padding-bottom: 2%;
+  padding-top: 19%;
+}
+
+#arrow{
+  width: 6vw;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  width: 100%;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO COMO FUNCIONA?
+-------------------------------------------------------------------  */ 
+
+#features{
+  padding-top: 139px;
+}
+
+.features-item .icon {
+  margin: -20px auto;
+}
+
+.swiper{
+  width: 100% !important;
+  height: 90% !important;
+}
+
+#imgDepoimento{
+  width: 100% !important;
+  height: 100% !important;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 40% !important;;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  margin-right: 61% !important;
+}
+.mySwiper{
+  padding-top: 18% !important;
+}
+
+.swiper-slide {
+  filter: blur(4px);
+  background: #d1ebff;
+  flex-shrink: 0;
+  width: 220% !important;
+  height: 99% !important;
+  position: relative;
+  transition-property: transform;
+}
+
+.swiper-slide-active{
+  filter:blur(0px);
+  border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO SOBRE NÓS
+-------------------------------------------------------------------  */
+#medicosSobreNos{
+  display: none;
+}
+
+#sobrenos{
+  margin-bottom: -18px;
+}
+#sobrenos h2 {
+  font-size: 46px;
+  margin-top: 2%;
+  margin-left: -1%;
+}
+
+.corrente{
+  margin-left: -13px;
+}
+
+.corrente img {
+  width: 92vw;
+  margin-top: 6%;
+  margin-left: -17px;
+}
+
+.corrente h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  display: flex;
+  color: #509d56;
+  padding-left: 36%;
+  margin-bottom: -14vh;
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.textoabout {
+  padding-top: 7vh;
+  padding-right: 0vh;
+}
+
+.about-us p {
+  margin: 45px 0px;
+}
+
+.textoposabout p {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+#blocoSobreNos{
+  margin-top: -29px;
+}
+
+/* -------------------------------------------------------------------  
+            RESPONSIVIDADE DO CONTATO
+-------------------------------------------------------------------  */
+
+.section-heading h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+  line-height: 30px;
+}
+
+.contact-us .section-heading {
+  text-align: center;
+  margin-left: -6%;
+  margin-right: -6%;
+}
+
+.contact-us .contact-info ul li {
+  text-align: center;
+  display: block;
+  margin-left: -8%;
+  margin-right: 6%;
+}
 }
