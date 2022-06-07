@@ -5454,3 +5454,339 @@ margin-top: -22.4% !important;
     margin-right: -71px;
   }
 }
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) and (min-height: 569px){ 
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+    /* -------------------------------------------------------------------  
+                RESPONSIVIDADE DO HEADER E LOGO HEADER
+  -------------------------------------------------------------------  */ 
+  #logoheader{
+    max-width: max-content;
+    max-height: max-content;
+    width: 104%;
+    height: 11.5rem;
+    margin-left: -41%;
+    margin-top: -21%;
+  }
+
+  #arrow img{
+    overflow:visible;
+  }
+
+  .logo{
+    max-width: max-content;
+    max-height: max-content;
+    width: 53%;
+    height: 14.5rem;
+    padding-left: 3%;
+  }
+
+  .main-blue-button a{
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    padding: 11px 10px;
+  }
+
+  .header-area.header-sticky .nav {
+    margin-top: 100px;
+  }
+
+  .header-area .main-nav .nav {
+    float: none;
+    width: 100%;
+    display: none;
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    margin-left: 0px;
+  }
+
+  .header-area .main-nav .nav {
+    float: right;
+    margin-top: -18.4%;
+    margin-right: -15%;
+    background-color: transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 999;
+  }
+
+  .header-area .nav {
+    margin-top: 30px;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  .background-header .main-nav .nav {
+  margin-top: -18.4% !important;
+  }
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO INICIO
+  -------------------------------------------------------------------  */  
+  #pag-principal{
+    padding-right: 0px;
+  }
+
+  #pag-principal h1{
+    font-size: 88px;
+  }
+
+  #pag-principal h2{
+    padding-left: 33px;
+    font-size: 33px;
+    margin-bottom: 4px;
+    margin-top: -18px;
+    line-height: 64px;
+  }
+
+  #pag-principal2 h3{
+    font-size: calc(0.6rem + 1.5vw);
+  }
+
+  .main-green-button a {
+    font-size: 24px;
+    padding: 15px 32px;
+    letter-spacing: 3.8px;
+    margin-left: -23px;
+  }
+
+  #prova{
+    margin-top: 13%;
+  }
+
+  .prova img{
+    width: 15%;
+    height: 30%;
+  }
+
+  .prova p{
+    font-size: 26px;
+    margin-left: 4%;
+  }
+
+  #medicoInicio{
+    width: 126%;
+    height: 84vh;
+  }
+
+  #top{
+    padding-bottom: 6%;
+    padding-top: 10%;
+  }
+
+  #arrow{
+    width: 6vw;
+  }
+
+  .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-banner::before {
+    content: '';
+    background-image: url(../images/Logo/PNG/Logo_Quero_Minha_Liminar-34.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -252px;
+    top: -10px;
+    width: 896px;
+    height: 1179px;
+    z-index: -1;
+    background-size: 91%;
+  }
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO COMO FUNCIONA?
+  -------------------------------------------------------------------  */ 
+
+  #features{
+    padding-top: 139px;
+  }
+
+  .features-item .icon {
+    margin: -20px auto;
+  }
+
+  .swiper{
+    width: 60% !important;
+    height: 100% !important;
+  }
+
+  #imgDepoimento{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 40% !important;;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    margin-right: 61% !important;
+  }
+  .mySwiper{
+    padding-top: 8% !important;
+    padding-bottom: 33px !important;
+    margin-top: 51px !important;
+    box-sizing: border-box;
+    width: 53% !important;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 70px !important;
+    margin-left: 197px !important;
+  }
+
+  .swiper-slide {
+    filter: blur(4px);
+    background: #d1ebff;
+    flex-shrink: 0;
+    width: 220% !important;
+    height: 99% !important;
+    position: relative;
+    transition-property: transform;
+  }
+
+  .swiper-slide-active{
+    filter:blur(0px);
+    border-radius: 10px;
+  }
+
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO SOBRE NÓS
+  -------------------------------------------------------------------  */
+
+  .about-us .left-image {
+    margin-right: 30px;
+    padding-top: 8%;
+  }
+
+  #sobrenos{
+    margin-bottom: -106px;
+  }
+  #sobrenos h2 {
+    font-size: 34px;
+    margin-top: -1%;
+    margin-left: -2%;
+  }
+
+  .corrente{
+    margin-left: 21px;
+  }
+
+  .corrente img {
+    width: 45vw;
+    margin-top: 20%;
+    margin-left: -35px;
+  }
+
+  .corrente h2 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    display: flex;
+    color: #509d56;
+    padding-left: 24%;
+    margin-bottom: -26vh;
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  .textoabout {
+    padding-top: 5vh;
+    padding-right: 0vh;
+  }
+
+  .about-us p {
+    margin: 14px 0px;
+  }
+
+  .textoposabout p {
+    font-size: 15px;
+    margin-bottom: -19px;
+    font-weight: 500;
+  }
+
+  #blocoSobreNos{
+    margin-top: -47px;
+  }
+  #medicosSobreNos{
+    width: 79%;
+    padding-bottom: 5%;
+    margin-top: -11%;
+  }
+
+  .about-us .left-image {
+    margin-right: 30px;
+    padding-top: 23%;
+  }
+  /* -------------------------------------------------------------------  
+              RESPONSIVIDADE DO CONTATO
+  -------------------------------------------------------------------  */
+
+  .section-heading h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    line-height: 33px;
+  }
+
+  .contact-us .section-heading {
+    text-align: center;
+    margin-left: -6%;
+    margin-right: -6%;
+  }
+
+  .contact-us .contact-info ul li {
+    text-align: center;
+    display: block;
+    margin-left: -8%;
+    margin-right: 6%;
+  }
+
+  .contact-us .contact-info {
+    padding: 40px 10px;
+    border: 2px solid #ef6b18;
+    margin-right: -71px;
+  }
+}
+
+#wpp{
+
+  animation: pulse 0.7s infinite alternate;
+  animation-timing-function: ease;
+  z-index: 100000;
+}
+
+@keyframes pulse {
+
+from{
+  transform: scale(1,1);
+}
+to{
+  transform: scale(0.6,0.6);
+}
+}
