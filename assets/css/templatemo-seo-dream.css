@@ -2408,6 +2408,13 @@ RESPONSIVIDADE PARA OA SEGUINTES DISPOSITIVOS: NOTE 20/ NOTE 20 ULTRA/ NOTE 9/ S
   margin-top: -26%;
 }
 
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 100%;
+  height: 13.5rem;
+}
+
 .header-area.header-sticky .nav {
   margin-top: 100px;
 }
@@ -2665,6 +2672,13 @@ RESPONSIVIDADE PARA OA SEGUINTES DISPOSITIVOS:GALAXY S10/ S10+/ S9/ S9+/ NOTE 3/
   margin-top: -26%;
 }
 
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 124%;
+  height: 13.5rem;
+}
+
 .header-area.header-sticky .nav {
   margin-top: 100px;
 }
@@ -2912,6 +2926,13 @@ margin-top: -17.4% !important;
   margin-top: -26%;
 }
 
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 124%;
+  height: 13.5rem;
+}
+
 .header-area.header-sticky .nav {
   margin-top: 100px;
 }
@@ -3157,6 +3178,13 @@ margin-top: -17.4% !important;
   height: 11.5rem;
   margin-left: -41%;
   margin-top: -21%;
+}
+
+.logo{
+  max-width: max-content;
+  max-height: max-content;
+  width: 104%;
+  height: 11.5rem;
 }
 
 .main-blue-button{
