@@ -1007,11 +1007,15 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(../images/features-icon-white-01.png);
+  background-image: url(../images/bxs-id-card.svg);
 }
 
 .second-feature:hover .icon {
   background-image: url(../images/features-icon-white-02.png);
+}
+
+#casa:hover {
+  background-image: url(../images/bx-building-house.svg);
 }
 
 .features-item .number h6 {
@@ -1045,8 +1049,20 @@ Features Style
   background-image: url(../images/numeros_docs_laranja.png);
 }
 
-.first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
+.icon, #pessoal {
+  background-image: url(../images/bxs-id-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.icon, #casa {
+  background-image: url(../images/bx-building-house.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
 }
 
 .second-feature .icon {
@@ -1898,6 +1914,26 @@ responsive
   perspective: 814px !important;
 }
 
+#ready{
+  font-size: 79px;
+  color: #ef6b18;
+}
+
+#result{
+  font-size: 79px;
+  color: #509d56;
+}
+
+#watch{
+  font-size: 79px;
+  color: #ef6b18;
+}
+
+#doc{
+  font-size: 79px;
+  color: #509d56;
+}
+
 /*--------------------------------------------------------------
 # RESPONSIVIDADE
 --------------------------------------------------------------*/
@@ -2078,7 +2114,9 @@ responsive
   }
 
   .corrente img {
-    width: 53vh;
+    width: 100%;
+    padding-top: 5%;
+    margin-bottom: -5%;
   }
 
   .corrente h2 {
@@ -2320,6 +2358,8 @@ margin-top: -19.4% !important;
 
 .corrente img {
   width: 100%;
+  padding-top: 6%;
+  margin-bottom: -2%;
 }
 
 .corrente h2 {
@@ -2840,6 +2880,8 @@ margin-top: -17.4% !important;
 
 .corrente img {
   width: 100%;
+  padding-top: 7%;
+  margin-bottom: -8%;
 }
 
 .corrente h2 {
@@ -3094,6 +3136,8 @@ margin-top: -17.4% !important;
 
 .corrente img {
   width: 100%;
+  padding-top: 6%;
+  margin-bottom: -5%;
 }
 
 .corrente h2 {
