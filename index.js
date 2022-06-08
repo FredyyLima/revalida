@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-app.get("/send", async (req,res) => {
+app.post("/send", async (req,res) => {
     const transporter = nodemailer.createTransport( new smtpTransport({
         
             host: process.env.MAIL_HOST,
@@ -43,31 +43,42 @@ app.get("/send", async (req,res) => {
           
     }));
 
+    const {name, telefone, email, city, cupom, meet, check} = req.body;
     const user = {
-        email:"guilhermemktfran@gmail.com",
-        assunto:"é um teste",
-        mensagem:"Olaaa",
-        nome:"Guilherme Mattoso"
+      nome: name,
+      telefone: telefone,
+      email: email,
+      city: city,
+      cupom: cupom,
+      meet: meet,
+      check: check
     }
-
+  
     await transporter
      .sendMail({
+      
         from: `${user.nome} <${user.email}> `,
-        to: user.nome,
-        subject: user.assunto,
+        to: process.env.MAIL_USER,
+        subject: "Quero minha liminar",
         text: `
         Cliente: ${user.nome}
         Contato: ${user.email}
-        Mensagem: ${user.mensagem}
+        Telefone: ${user.telefone}
+        Cidade: ${user.city}
+        Cupom: ${user.cupom}
+        Nos conheceu...: ${user.meet}
+        Você aceitou compartilhar seus dados e autorizou o nosso contato.
         `,
       })
       .then((r) => {
           console.log(r);
           res.redirect('/');
+          
       })
       .catch((e) => {
           console.log(e);
           res.redirect('/');
+          
       })
  
 })
