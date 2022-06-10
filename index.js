@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get("/", (req, res) => {
-  res.render("index.ejs");
+  res.render("index");
 });
 
 app.post("/send", async (req,res) => {
